@@ -1,0 +1,78 @@
+# 依存関係
+/node_modules
+/jspm_packages
+/bower_components
+
+# ビルド出力
+/dist
+/tmp
+/out
+/build
+/target
+
+# ミニファイドされたバージョン
+*.min.js
+*.min.css
+
+# コンパイラのキャッシュファイル
+*.pyc
+*.class
+*.jar
+*.war
+*.ear
+
+# ログファイル
+*.log
+*.sql
+*.sqlite
+
+# 環境設定ファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE設定
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.sln
+*.suo
+*.user
+*.userprefs
+*.users
+*.tmp_proj
+*.cache
+*.csproj
+*.vbproj
+*.vcxproj
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 証明書
+*.pem
+*.key
+
+# テストカバレッジ
+/coverage
+.nyc_output
+
+# パッケージング
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# その他
+*.bak
+*.swp
+*.tmp
+temp/
